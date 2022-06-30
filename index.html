@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de Formulário 02 - André Viapiana</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="page">
+
+        <header>
+
+            <h1>
+                AVALIE A SUA MENTORIA
+            </h1>
+
+            <p>
+                Chegou a hora de avaliar o seu mentor. Bora lá?
+            </p>
+
+            <img id="logo" src="images/Vector.png" alt="Logotipo">
+            <img id="logo1" src="images/Vector-1.png" alt="Logotipo">
+            <img id="logo2" src="images/Vector-2.png" alt="Logotipo">
+            <img id="logo3" src="images/Vector-3.png" alt="Logotipo">
+            <img id="logo4" src="images/Vector-4.png" alt="Logotipo">
+            <img id="logo5" src="images/Vector-5.png" alt="Logotipo">         
+
+        </header>
+
+        <div id="form-title">
+            INFORMAÇÕES PESSOAIS
+        </div>
+
+        <form action="">
+
+            <fieldset>
+
+                <section class="input-group">
+
+                    <div class="input-wrapper">
+                    
+                        <label for="name">Nome</label>
+                        <input type="text" id="name">
+                    
+                    </div>
+    
+                    <div class="input-wrapper">
+                        
+                        <label for="surname">Sobrenome</label>
+                        <input type="text" id="surname">
+                    
+                    </div>
+
+                </section>
+
+                <div class="input-wrapper">
+                    
+                    <label for="email">Email <span>(digite um email válido)</span></label>
+                    <input type="email" id="email">
+                
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>
+                    INFORMAÇÕES DO MENTOR
+                </legend>
+
+
+                <div class="input-wrapper">
+                    
+                    <label for="mentor">Selecione quem foi o seu mentor</label>
+                    <select name="mentor" id="mentor">
+                        <option value="select"></option>
+                        <option value="mayk">Mayk Brito</option>
+                        <option value="jake">Jake Gracielly</option>
+                        <option value="rodrigo">Rodrigo Gonçalves</option>
+                    </select>
+                    
+                </div>
+                
+                <section class="input-mentor">
+                    <div class="input-wrapper">
+                        
+                        <label for="feedback">Feedback sobre o mentor</label>
+                        <textarea name="feedback" id="feedback"></textarea>
+                        
+                    </div>
+                </section>
+                
+
+                <div class="checkbox-wrapper">
+                    
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+                
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>
+                    AGENDANDO PRÓXIMA MENTORIA
+                </legend>
+
+                <section class="input-group-2">
+
+                    <div class="input-wrapper">
+                    
+                        <label for="date">Data <span>(DD/MM/AAAA)</span></label>
+                        <input type="date" id="date">
+                        
+                    </div>
+    
+                    <div class="input-wrapper">
+                        
+                        <label for="das">Das</label>
+                        <input type="time" id="das">
+                        
+                    </div>
+    
+                    <div class="input-wrapper">
+                        
+                        <label for="ate">Até</label>
+                        <input type="time" id="ate">
+                        
+                    </div>
+
+                </section>
+                
+
+        </form>
+
+    </div>
+
+    <footer>
+        <button
+            class="button" 
+            form="my-form">
+            SALVAR
+        </button>
+    </footer>
+    
+</body>
+</html>
