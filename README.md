@@ -4,7 +4,7 @@ Esse é o 6° desafio disponível no curso, no Stage 03 - Formulários, Validaç
 
 Neste desafio, devemos criar um formulário baseado nos conteúdos vistos em aula. O formulário é visto na imagem abaixo:
 
-![Untitled5](https://user-images.githubusercontent.com/106932234/176490656-cb96229b-0a02-468c-baff-2cad01a85bd2.png)
+![Untitled6](https://user-images.githubusercontent.com/106932234/176575982-1c9fb955-f000-4a12-b5db-30cd73418bc9.png)
 
 O objetivo final foi atingido sem maiores obstáculos.
 
